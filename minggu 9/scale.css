@@ -1,0 +1,27 @@
+body{
+    background:rgb(101, 216, 224);
+    font-family:monospace;
+    text-align:center;
+}
+h1,h2{
+    color: rgb(10, 10, 10);
+}
+.kotak1{
+    background:rgb(228, 96, 206);
+    width:150px;
+    float:left;
+    height:150px;
+    margin:50px;
+    padding:20px;
+}
+.kotak2{
+    background:rgb(202, 83, 182);
+    width:150px;
+    float:left;
+    height:150px;
+    margin:50px;
+    padding:20px;
+    -ms-transform: scale(2,3);/*support IE 9*/
+    -webkit-transform:scale(2,3);/*support safari*/
+    transform: scale(2,3);/*standard syntax*/
+}
